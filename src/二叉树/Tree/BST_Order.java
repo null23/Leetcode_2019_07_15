@@ -50,7 +50,8 @@ public class BST_Order {
 
     /**
      * 层序遍历
-     * 把上一层打印出来，然后把上一层的所有左右孩子分别加入队列
+     * 主要是用一个队列维护上下的层级关系
+     * 把上一层打印出来并弹出，然后把上一层的所有左右孩子分别加入队列，再依此把左右孩子的左右孩子放入对垒
      */
     public void levelSort(Node root){
         Queue<Node> queue = new LinkedList();
