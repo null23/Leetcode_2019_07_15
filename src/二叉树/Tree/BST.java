@@ -42,4 +42,21 @@ public class BST {
         }
         return node;
     }
+
+    public Node search(Integer value){
+        return search(root, value);
+    }
+
+    /**
+     * 查找一个节点
+     */
+    public Node search(Node node, Integer value){
+        if(node.getValue().equals(value)){
+            return node;
+        }else if(node.getValue() < value){
+            return search(node.getLeft(), value);
+        }else {
+            return search(node.getRight(), value);
+        }
+    }
 }
