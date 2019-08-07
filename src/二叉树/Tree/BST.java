@@ -61,15 +61,80 @@ public class BST {
     }
 
     /**
+     * 查找最小节点
+     */
+    public Node findMin(Node node){
+        if(node.getLeft() == null){
+            return node;
+        }else{
+            return findMin(node.getLeft());
+        }
+    }
+
+    /**
      * 删除最小节点
      */
     public Node deleteMin(Node node){
         if(node.getLeft() == null){
+            node = null;
+        }
+        return deleteMin(node.getLeft());
+    }
 
+    /**
+     * 查找最大节点
+     */
+    public Node findMax(Node node){
+        if(node.getRight() == null){
+            return node;
+        }else{
+            return findMax(node.getRight());
         }
     }
 
     /**
      * 删除最大节点
      */
+    public Node deleteMax(Node node){
+        if(node.getRight() == null){
+            node = null;
+        }
+        return deleteMax(node.getRight());
+    }
+
+    /**
+     * 删除指定节点
+     */
+    public Node delNode(Node node, Integer delVal){
+        //当前的节点就是要被删除的节点
+        if(node.getValue().equals(delVal)){
+            //左子树为空，直接删除，右子树的根节点替换到当前位置
+            if(node.getLeft() == null){
+                node = node.getRight();
+
+                //右子树为空，直接删除，左子树的根节点替换到当前位置
+            } else if(node.getRight() == null){
+                node = node.getLeft();
+
+                //左右子树都不为空
+            }else{
+                //找到右子树的最小值
+                Node successNode = findMin(node.getRight());
+                //删除右子树的最小值
+                deleteMin(node.getRight());
+
+                successNode.setLeft(node.getLeft());
+                successNode.setRight(node.getRight());
+                node = successNode;
+            }
+            return node;
+            //继续递归，直到找到需要被删除的节点
+        }else{
+            if(node.getValue() > delVal){
+                return delNode(node.getRight(), delVal);
+            }else {
+                return delNode(node.getLeft(), delVal);
+            }
+        }
+    }
 }

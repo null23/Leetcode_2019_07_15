@@ -31,9 +31,9 @@ public class BST_Order {
      */
     public void inOrder(Node root){
         if(root != null){
-            preOrder(root.getLeft());
+            inOrder(root.getLeft());
             System.out.println(root.getValue());
-            preOrder(root.getRight());
+            inOrder(root.getRight());
         }
     }
 
@@ -42,8 +42,8 @@ public class BST_Order {
      */
     public void postOrder(Node root){
         if(root != null){
-            preOrder(root.getLeft());
-            preOrder(root.getRight());
+            postOrder(root.getLeft());
+            postOrder(root.getRight());
             System.out.println(root.getValue());
         }
     }
@@ -55,7 +55,9 @@ public class BST_Order {
      */
     public void levelSort(Node root){
         Queue<Node> queue = new LinkedList();
+        //入队
         queue.offer(root);
+        //队列不为空，继续
         while(!queue.isEmpty()){
             Node curNode = queue.poll();
             System.out.println(curNode);
