@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d7f8307-07cf-4036-bd42-a4d0041df20a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/二叉树/遍历.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树/遍历.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二叉树/Tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树/Tree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二叉树/Tree/BST_Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树/Tree/BST_Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二叉树/Tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树/Tree/TreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/二叉树/Tree/BST_Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1003">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="670">
+              <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,29 +36,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/二叉树/Tree/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2447">
+            <state relative-caret-position="2072">
               <caret line="140" selection-start-line="140" selection-end-line="140" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/二叉树/遍历.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="175">
-                <caret line="7" selection-start-line="7" selection-end-line="7" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/二叉树/Tree/Node.java">
+        <entry file="file://$PROJECT_DIR$/src/二叉树/Tree/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="150">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding>
                 <element signature="e#222#223#0" expanded="true" />
                 <element signature="e#256#257#0" expanded="true" />
@@ -96,11 +86,12 @@
         <option value="$PROJECT_DIR$/src/二分/_33.java" />
         <option value="$PROJECT_DIR$/src/表/跳表/散列表.md" />
         <option value="$PROJECT_DIR$/src/表/散列表/散列表.md" />
-        <option value="$PROJECT_DIR$/src/二叉树/Tree/Node.java" />
         <option value="$PROJECT_DIR$/src/排序/基本排序/InsertionSort.java" />
-        <option value="$PROJECT_DIR$/src/二叉树/Tree/BST_Order.java" />
         <option value="$PROJECT_DIR$/src/二叉树/Tree/BST.java" />
         <option value="$PROJECT_DIR$/src/二叉树/遍历.md" />
+        <option value="$PROJECT_DIR$/src/二叉树/Tree/BST_Order.java" />
+        <option value="$PROJECT_DIR$/src/二叉树/Tree/Node.java" />
+        <option value="$PROJECT_DIR$/src/二叉树/Tree/TreeNode.java" />
       </list>
     </option>
   </component>
@@ -464,9 +455,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11876248" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11876248" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -481,7 +471,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2298969" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2298969" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32897863" />
@@ -575,10 +565,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/二叉树/Tree/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/二叉树/遍历.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="175">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/二叉树/Tree/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="2072">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/二叉树/Tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding>
             <element signature="e#222#223#0" expanded="true" />
             <element signature="e#256#257#0" expanded="true" />
@@ -600,28 +607,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/二叉树/Tree/BST_Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1003">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="670">
+          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/二叉树/Tree/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2447">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/二叉树/遍历.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="175">
-            <caret line="7" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
