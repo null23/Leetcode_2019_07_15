@@ -13,14 +13,14 @@ import java.util.Queue;
  * 这里使用队列记录上一层的所有节点，依此把上一层节点的所有记录打印出来
  */
 public class BST_Order {
-    private Node root;
+    private TreeNode root;
 
     /**
      * 前序遍历 根 左 右
      */
-    public void preOrder(Node root){
+    public void preOrder(TreeNode root){
         if(root != null){
-            System.out.println(root.getValue());
+            System.out.println(root.getVal());
             preOrder(root.getLeft());
             preOrder(root.getRight());
         }
@@ -29,10 +29,10 @@ public class BST_Order {
     /**
      * 中序遍历 左 根 右
      */
-    public void inOrder(Node root){
+    public void inOrder(TreeNode root){
         if(root != null){
             inOrder(root.getLeft());
-            System.out.println(root.getValue());
+            System.out.println(root.getVal());
             inOrder(root.getRight());
         }
     }
@@ -40,11 +40,11 @@ public class BST_Order {
     /**
      * 后序遍历 左 右 根
      */
-    public void postOrder(Node root){
+    public void postOrder(TreeNode root){
         if(root != null){
             postOrder(root.getLeft());
             postOrder(root.getRight());
-            System.out.println(root.getValue());
+            System.out.println(root.getVal());
         }
     }
 
@@ -53,13 +53,13 @@ public class BST_Order {
      * 主要是用一个队列维护上下的层级关系
      * 把上一层打印出来并弹出，然后把上一层的所有左右孩子分别加入队列，再依此把左右孩子的左右孩子放入对垒
      */
-    public void levelSort(Node root){
-        Queue<Node> queue = new LinkedList();
+    public void levelSort(TreeNode root){
+        Queue<TreeNode> queue = new LinkedList();
         //入队
         queue.offer(root);
         //队列不为空，继续
         while(!queue.isEmpty()){
-            Node curNode = queue.poll();
+            TreeNode curNode = queue.poll();
             System.out.println(curNode);
             //把左孩子加入队列尾部
             if(curNode.getLeft() != null){
@@ -70,5 +70,12 @@ public class BST_Order {
                 queue.offer(curNode.getRight());
             }
         }
+    }
+
+    /**
+     * 中序遍历的非递归
+     */
+    public void midOrder2(TreeNode root){
+
     }
 }

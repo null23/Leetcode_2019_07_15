@@ -5,19 +5,19 @@ package 二叉树.Tree;
  * 二叉查找树的插入
  */
 public class BST {
-    private Node root;
+    private TreeNode root;
 
-    public Node getRoot() {
+    public TreeNode getRoot() {
         return root;
     }
 
-    public void setRoot(Node root) {
+    public void setRoot(TreeNode root) {
         this.root = root;
     }
 
-    public Node insert(Integer value){
+    public TreeNode insert(Integer value){
         if(this.root == null){
-            this.root = new Node(value);
+            this.root = new TreeNode(value);
             return this.root;
         }else{
             return insert(root, value);
@@ -29,31 +29,31 @@ public class BST {
      * 并且返回头节点
      * 注意这里返回的头节点，这里是递归查找新节点应该插入的位置
      */
-    public Node insert(Node node, Integer value){
+    public TreeNode insert(TreeNode node, Integer value){
         if(node == null){
-            return new Node(value);
+            return new TreeNode(value);
         }
-        if(node.getValue().equals(value)){
-            node.setValue(value);
-        }else if(node.getValue() < value){
+        if(node.getVal().equals(value)){
+            node.setVal(value);
+        }else if(node.getVal() < value){
             node.setLeft(insert(node.getLeft(), value));
-        }else if(node.getValue() > value){
+        }else if(node.getVal() > value){
             node.setRight(insert(node.getLeft(), value));
         }
         return node;
     }
 
-    public Node search(Integer value){
+    public TreeNode search(Integer value){
         return search(root, value);
     }
 
     /**
      * 查找一个节点
      */
-    public Node search(Node node, Integer value){
-        if(node.getValue().equals(value)){
+    public TreeNode search(TreeNode node, Integer value){
+        if(node.getVal().equals(value)){
             return node;
-        }else if(node.getValue() < value){
+        }else if(node.getVal() < value){
             return search(node.getLeft(), value);
         }else {
             return search(node.getRight(), value);
@@ -63,7 +63,7 @@ public class BST {
     /**
      * 查找最小节点
      */
-    public Node findMin(Node node){
+    public TreeNode findMin(TreeNode node){
         if(node.getLeft() == null){
             return node;
         }else{
@@ -74,7 +74,7 @@ public class BST {
     /**
      * 删除最小节点
      */
-    public Node deleteMin(Node node){
+    public TreeNode deleteMin(TreeNode node){
         if(node.getLeft() == null){
             node = null;
         }
@@ -84,7 +84,7 @@ public class BST {
     /**
      * 查找最大节点
      */
-    public Node findMax(Node node){
+    public TreeNode findMax(TreeNode node){
         if(node.getRight() == null){
             return node;
         }else{
@@ -95,7 +95,7 @@ public class BST {
     /**
      * 删除最大节点
      */
-    public Node deleteMax(Node node){
+    public TreeNode deleteMax(TreeNode node){
         if(node.getRight() == null){
             node = null;
         }
@@ -105,9 +105,9 @@ public class BST {
     /**
      * 删除指定节点
      */
-    public Node delNode(Node node, Integer delVal){
+    public TreeNode delNode(TreeNode node, Integer delVal){
         //当前的节点就是要被删除的节点
-        if(node.getValue().equals(delVal)){
+        if(node.getVal().equals(delVal)){
             //左子树为空，直接删除，右子树的根节点替换到当前位置
             if(node.getLeft() == null){
                 node = node.getRight();
@@ -119,7 +119,7 @@ public class BST {
                 //左右子树都不为空
             }else{
                 //找到右子树的最小值
-                Node successNode = findMin(node.getRight());
+                TreeNode successNode = findMin(node.getRight());
                 //删除右子树的最小值
                 deleteMin(node.getRight());
 
@@ -130,7 +130,7 @@ public class BST {
             return node;
             //继续递归，直到找到需要被删除的节点
         }else{
-            if(node.getValue() > delVal){
+            if(node.getVal() > delVal){
                 return delNode(node.getRight(), delVal);
             }else {
                 return delNode(node.getLeft(), delVal);
