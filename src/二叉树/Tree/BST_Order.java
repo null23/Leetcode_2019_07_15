@@ -71,27 +71,5 @@ public class BST_Order {
         }
     }
 
-    /**
-     * 中序遍历的非递归
-     * 提示：用栈来维护，维护什么？维护前继节点的引用
-     */
-    public List<Integer> midOrder2(TreeNode root){
-        List<Integer> res = new ArrayList<>();
 
-        //放入栈中
-        TreeNode curNode = root;
-        Stack<TreeNode> stack = new Stack<>();
-
-        while(curNode != null || !stack.empty()){
-            //左节点全部入栈
-            while(curNode != null){
-                stack.push(curNode.getLeft());
-                curNode = curNode.getLeft();
-            }
-            curNode = stack.pop();
-            res.add(curNode.getVal());
-            curNode = curNode.getRight();
-        }
-        return res;
-    }
 }
