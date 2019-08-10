@@ -21,17 +21,25 @@ public class _103 {
         Stack<TreeNode> stack = new Stack();
         stack.add(root);
 
-        while(true){
+        while(!stack.isEmpty()){
             List<Integer> list = new ArrayList<>();
+            Stack<TreeNode> tempStack = new Stack<>();
             while(!stack.isEmpty()){
                 TreeNode node = stack.pop();
+                list.add(node.getVal());
                 if(fromLeft2Right){
-                    list.add(node.getVal());
+                    tempStack.push(node.getLeft());
+                    tempStack.push(node.getRight());
                 }else{
-
+                    tempStack.push(node.getRight());
+                    tempStack.push(node.getLeft());
                 }
             }
+            res.add(list);
+            stack.addAll(tempStack);
         }
+
+        return res;
     }
 
 }
