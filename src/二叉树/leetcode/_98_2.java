@@ -3,6 +3,7 @@ package 二叉树.leetcode;
 import 二叉树.Tree.TreeNode;
 
 /**
+ * MidNum
  * 给定一个二叉树，判断其是否是一个有效的二叉搜索树
  */
 public class _98_2 {

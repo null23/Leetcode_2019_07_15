@@ -7,12 +7,15 @@ import java.util.List;
 import java.util.Stack;
 
 /**
+ * MidNum
  * 非递归的中序遍历
  */
 public class _94 {
     /**
      * 中序遍历的非递归
      * 提示：用栈来维护，维护什么？维护前继节点的引用
+     *
+     * 时间复杂度：O(n)
      */
     public List<Integer> midOrder2(TreeNode root){
         List<Integer> res = new ArrayList<>();

@@ -3,7 +3,7 @@ package 二叉树.leetcode;
 import 二叉树.Tree.TreeNode;
 
 /**
- * Created by qianji.wang on 2019/8/9.
+ * Easy
  * 给定一个二叉树，检查他是否是对称的
  */
 public class _101 {
