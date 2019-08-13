@@ -4,11 +4,11 @@ package 二叉树.Tree;
  * Created by qianji.wang on 2019/7/22.
  */
 public class TreeNode {
-    private Integer val;
+    public Integer val;
 
-    private TreeNode left;
+    public TreeNode left;
 
-    private TreeNode right;
+    public TreeNode right;
 
     public TreeNode() {
     }
