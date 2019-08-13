@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d7f8307-07cf-4036-bd42-a4d0041df20a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/二叉树/leetcode/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/二叉树/leetcode/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/二叉树/leetcode/Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/二叉树/leetcode/_112.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode_2019_07_15/二叉树/leetcode/Base$Sub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode_2019_07_15/二叉树/leetcode/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode_2019_07_15/二叉树/leetcode/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/二叉树/leetcode/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树/leetcode/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/二叉树/leetcode/_111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树/leetcode/_111.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,11 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_111.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="550">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_112.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="22" column="115" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="22" selection-end-column="115" />
             </state>
           </provider>
         </entry>
@@ -122,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/Base.java" />
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/B.java" />
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/_111.java" />
+        <option value="$PROJECT_DIR$/src/二叉树/leetcode/_112.java" />
       </list>
     </option>
   </component>
@@ -131,7 +135,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="2580" />
@@ -550,10 +554,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <frame x="-8" y="-8" width="2064" height="1128" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12175649" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.121635094" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -564,12 +568,12 @@
       <window_info anchor="bottom" id="Messages" weight="0.3298969" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298969" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22886598" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22839506" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Maven" />
@@ -757,8 +761,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_111.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="550">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_112.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="115" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="22" selection-end-column="115" />
         </state>
       </provider>
     </entry>
