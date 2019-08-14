@@ -17,6 +17,7 @@ public class _199_2 {
     /**
      * 思路：迭代
      *  优先遍历右子树，并且在遍历右子树的时候更新最大深度，这样可以在遍历相同高度的左子树的时候，根据最大深度判断已经遍历过相同高度的右子树，但前节点就不用加入结果集了
+     *  然后在遍历左子树
      */
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> list = new ArrayList<>();
