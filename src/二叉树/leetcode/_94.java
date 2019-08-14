@@ -27,7 +27,7 @@ public class _94 {
         while(curNode != null || !stack.empty()){
             //左节点全部入栈
             while(curNode != null){
-                stack.push(curNode.getLeft());
+                stack.push(curNode);
                 curNode = curNode.getLeft();
             }
             curNode = stack.pop();
