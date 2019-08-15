@@ -11,10 +11,24 @@ import 二叉树.Tree.TreeNode;
  */
 public class _230 {
 
-    /**
-     *
-     */
-    public int kthSmallest(TreeNode root, int k) {
+    int num = 1;
 
+    int res = 0;
+
+    public int kthSmallest(TreeNode root, int k) {
+        helper(root, k);
+
+        return res;
+    }
+
+    public void helper(TreeNode root, int k){
+        if(root == null){
+            return;
+        }
+        helper(root.left, k);
+        if(num++ == k){
+            res = root.val;
+        }
+        helper(root.right, k);
     }
 }
