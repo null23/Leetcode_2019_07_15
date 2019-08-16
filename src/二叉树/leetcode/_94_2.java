@@ -14,7 +14,6 @@ public class _94_2 {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
-        stack.push(root);
 
         while(!stack.empty()){
             while(root != null){

@@ -15,6 +15,12 @@ public class _230 {
 
     int res = 0;
 
+    /**
+     * 思路：DFS，中序遍历递归
+     *  始终是脱离不了那几个框架的，尤其是二叉搜索树的中序遍历，结果是从大到小有序的
+     *
+     *  时间复杂度：O(n)
+     */
     public int kthSmallest(TreeNode root, int k) {
         helper(root, k);
 
