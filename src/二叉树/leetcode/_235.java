@@ -30,7 +30,7 @@ public class _235 {
             mid = 1;
         }
 
-        if(left + right + mid > 1){
+        if(left + right + mid > 1 && res == null){
             res = root;
         }
 
