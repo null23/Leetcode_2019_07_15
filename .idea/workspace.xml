@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d7f8307-07cf-4036-bd42-a4d0041df20a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/二叉树/leetcode/_230_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/二叉树/leetcode/_235.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/二叉树/leetcode/_236.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/二叉树/leetcode/_230.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树/leetcode/_230.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/二叉树/leetcode/_94_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树/leetcode/_94_2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,40 +20,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_230_2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="33" column="5" selection-start-line="15" selection-start-column="3" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_235.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="95">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_236.java">
+        <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_230.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/二叉树/Tree/BST_Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="298">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -110,11 +84,11 @@
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/_199.java" />
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/_199_2.java" />
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/_226.java" />
-        <option value="$PROJECT_DIR$/src/二叉树/leetcode/_230.java" />
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/_94_2.java" />
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/_230_2.java" />
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/_235.java" />
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/_236.java" />
+        <option value="$PROJECT_DIR$/src/二叉树/leetcode/_230.java" />
       </list>
     </option>
   </component>
@@ -567,7 +541,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.499501" weight="0.22886598" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.499501" visible="true" weight="0.22886598" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.500499" side_tool="true" weight="0.22886598" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3298969" />
@@ -784,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_230.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_94.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -818,16 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_230_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="33" column="5" selection-start-line="15" selection-start-column="3" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/二叉树/Tree/BST_Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6">
@@ -835,17 +792,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_235.java">
+    <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_236.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="470">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_236.java">
+    <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_230_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        <state relative-caret-position="100">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_235.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/二叉树/leetcode/_230.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
         </state>
       </provider>
     </entry>
