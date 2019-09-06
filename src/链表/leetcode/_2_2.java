@@ -24,6 +24,8 @@ public class _2_2 {
      * 注意这里pre节点的用法，在结果需要返回的是头节点的时候，一般都会这么做，额外维护一个pre节点指向头节点。
      * 这里我还不是很理解透彻，往后再做几道题试试。
      * 我理解是因为这样就不用判断有没有创建头节点（头节点是否为空），迭代维护起来更方便。
+     *
+     * 时间复杂度：O(max(m,n))
      */
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode pre = new ListNode(0);
