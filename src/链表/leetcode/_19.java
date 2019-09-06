@@ -12,12 +12,33 @@ import 链表.ListNode.ListNode;
  *
  * 当删除了倒数第二个节点后，链表变为 1->2->3->5.
  * 说明：
- * 给定的 n 保证是有效的。
+ * 给定的 n 保证是有效的。
  *
  * 你能尝试使用一趟扫描实现吗？
  */
 public class _19 {
-    public ListNode removeNthFromEnd(ListNode head, int n) {
 
+    /**
+     * 这里还是得用一个dummyNode，并且双指针的移动从dummyNode开始移动。
+     * 使用dummyNode可以为我们兼容以下情况：
+     *  1.只有一个节点
+     *  2.要删除的是头节点
+     */
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+
+        ListNode fastNode = dummy;
+        for(int i = 0; i <= n; i++){
+            fastNode = fastNode.next;
+        }
+
+        ListNode slowNode = dummy;
+        while(fastNode != null){
+            slowNode = slowNode.next;
+            fastNode = fastNode.next;
+        }
+        slowNode.next = slowNode.next.next;
+        return dummy.next;
     }
 }
