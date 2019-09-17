@@ -1,6 +1,10 @@
 package 链表.leetcode;
 
+import 二叉树.Tree.TreeNode;
 import 链表.ListNode.ListNode;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -45,4 +49,6 @@ public class _142 {
             fastNode = fastNode.next;
         }
     }
+
+
 }
