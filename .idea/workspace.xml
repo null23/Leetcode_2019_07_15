@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7f8307-07cf-4036-bd42-a4d0041df20a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_极客时间/堆栈_队列/判断字符串是否有效.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_极客时间/数组_链表/交换链表相邻的节点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_极客时间/数组_链表/判断链表是否有环.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_极客时间/数组_链表/反转链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_极客时间/堆栈_队列/用栈实现一个队列.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,10 +45,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_极客时间/堆栈_队列/用栈实现一个队列.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_极客时间/数组_链表/判断链表是否有环.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+            <state relative-caret-position="470">
+              <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/二叉树/leetcode/_98.java" />
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/_98_2.java" />
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/_100.java" />
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/_101.java" />
@@ -135,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/_极客时间/数组_链表/交换链表相邻的节点.java" />
         <option value="$PROJECT_DIR$/src/_极客时间/堆栈_队列/判断字符串是否有效.java" />
         <option value="$PROJECT_DIR$/src/_极客时间/数组_链表/判断链表是否有环.java" />
+        <option value="$PROJECT_DIR$/src/_极客时间/堆栈_队列/用栈实现一个队列.java" />
       </list>
     </option>
   </component>
@@ -179,13 +185,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="_极客时间" type="462c0819:PsiDirectoryNode" />
               <item name="堆栈_队列" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode_2019_07_15" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode_2019_07_15" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_极客时间" type="462c0819:PsiDirectoryNode" />
-              <item name="数组_链表" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode_2019_07_15" type="b2602c69:ProjectViewProjectNode" />
@@ -594,7 +593,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498503" visible="true" weight="0.036082473" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498503" weight="0.3226804" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50149703" side_tool="true" weight="0.036082473" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3298969" />
@@ -619,13 +618,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/二叉树/Tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/二叉树/Tree/BST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1530">
@@ -994,6 +986,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/_极客时间/数组_链表/判断链表是否有环.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/_极客时间/堆栈_队列/判断字符串是否有效.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -1004,13 +1006,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_极客时间/数组_链表/判断链表是否有环.java">
+    <entry file="file://$PROJECT_DIR$/src/_极客时间/堆栈_队列/用栈实现一个队列.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
