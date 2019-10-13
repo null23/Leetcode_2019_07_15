@@ -2,6 +2,9 @@ package _极客时间.堆栈_队列;
 
 import java.util.Stack;
 
+/**
+ * leetcodee 232
+ */
 public class 用栈实现一个队列 {
 
     /**
