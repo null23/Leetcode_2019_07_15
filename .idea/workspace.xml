@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7f8307-07cf-4036-bd42-a4d0041df20a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_极客时间/优先级队列_堆/数据流中的TopK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_极客时间/哈希表/三数之和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_极客时间/哈希表/两数之和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_极客时间/哈希表/有效的字母异位词.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_极客时间/堆栈_队列/用栈实现一个队列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_极客时间/堆栈_队列/用栈实现一个队列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_极客时间/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_极客时间/优先级队列_堆/滑动窗口中的最大值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_极客时间/优先级队列_堆/滑动窗口中的最大值.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/package-info.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,66 +28,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_极客时间/数组_链表/交换链表相邻的节点.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_极客时间/堆栈_队列/判断字符串是否有效.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_极客时间/堆栈_队列/用栈实现一个队列.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-              <folding>
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_极客时间/优先级队列_堆/数据流中的TopK.java">
+        <entry file="file://$PROJECT_DIR$/src/_极客时间/哈希表/三数之和.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_极客时间/数组_链表/判断链表是否有环.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+            <state relative-caret-position="375">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/链表/leetcode/_24.java">
+        <entry file="file://$PROJECT_DIR$/src/_极客时间/哈希表/两数之和.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,10 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/二叉树/leetcode/_100.java" />
-        <option value="$PROJECT_DIR$/src/二叉树/leetcode/_101.java" />
-        <option value="$PROJECT_DIR$/src/二叉树/leetcode/_104.java" />
-        <option value="$PROJECT_DIR$/src/二叉树/leetcode/_103.java" />
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/_110.java" />
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/_110_2.java" />
         <option value="$PROJECT_DIR$/src/二叉树/leetcode/Sub.java" />
@@ -155,6 +116,10 @@
         <option value="$PROJECT_DIR$/src/_极客时间/数组_链表/判断链表是否有环.java" />
         <option value="$PROJECT_DIR$/src/_极客时间/堆栈_队列/用栈实现一个队列.java" />
         <option value="$PROJECT_DIR$/src/_极客时间/优先级队列_堆/数据流中的TopK.java" />
+        <option value="$PROJECT_DIR$/src/_极客时间/优先级队列_堆/滑动窗口中的最大值.java" />
+        <option value="$PROJECT_DIR$/src/_极客时间/哈希表/有效的字母异位词.java" />
+        <option value="$PROJECT_DIR$/src/_极客时间/哈希表/两数之和.java" />
+        <option value="$PROJECT_DIR$/src/_极客时间/哈希表/三数之和.java" />
       </list>
     </option>
   </component>
@@ -175,6 +140,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,21 +171,45 @@
               <item name="Leetcode_2019_07_15" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode_2019_07_15" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="_极客时间" type="462c0819:PsiDirectoryNode" />
+              <item name="哈希表" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode_2019_07_15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode_2019_07_15" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_极客时间" type="462c0819:PsiDirectoryNode" />
+              <item name="堆栈_队列" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode_2019_07_15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode_2019_07_15" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_极客时间" type="462c0819:PsiDirectoryNode" />
+              <item name="数组_链表" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode_2019_07_15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode_2019_07_15" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="二分" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode_2019_07_15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode_2019_07_15" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="二叉树" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode_2019_07_15" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode_2019_07_15" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="链表" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._61">
+  <component name="RunManager" selected="Application.三数之和">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -423,12 +414,12 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="二叉树.leetcode.B" />
+    <configuration name="三数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_极客时间.哈希表.三数之和" />
       <module name="Leetcode_2019_07_15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="二叉树.leetcode.*" />
+          <option name="PATTERN" value="_极客时间.哈希表.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -541,19 +532,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.B" />
       <item itemvalue="Application._2" />
       <item itemvalue="Application._2_2" />
       <item itemvalue="Application._366" />
       <item itemvalue="Application._61" />
+      <item itemvalue="Application.三数之和" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.三数之和" />
         <item itemvalue="Application._61" />
         <item itemvalue="Application._2_2" />
         <item itemvalue="Application._2" />
         <item itemvalue="Application._366" />
-        <item itemvalue="Application.B" />
       </list>
     </recent_temporary>
   </component>
@@ -590,8 +581,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1521956" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07884231" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -601,12 +593,12 @@
       <window_info id="Nl-Palette" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298969" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498503" visible="true" weight="0.3226804" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498503" weight="0.3226804" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50149703" side_tool="true" weight="0.036082473" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3298969" />
@@ -631,37 +623,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/二叉树/Tree/BST_Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/leetcode/_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1675">
-          <caret line="67" column="32" selection-start-line="55" selection-start-column="7" selection-end-line="67" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/leetcode/_21_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/leetcode/_61.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2150">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/链表/ListNode/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1023,10 +984,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/_极客时间/哈希表.java" />
+    <entry file="file://$PROJECT_DIR$/src/_极客时间/哈希表/有效的字母异位词.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/_极客时间/优先级队列_堆/数据流中的TopK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="200">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_极客时间/优先级队列_堆/滑动窗口中的最大值.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_极客时间/哈希表/两数之和.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_极客时间/哈希表/三数之和.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
