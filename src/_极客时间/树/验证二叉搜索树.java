@@ -7,7 +7,7 @@ public class 验证二叉搜索树 {
     /**
      * 中序遍历，保存上一节点的大小进行判断
      */
-    private int last;
+    private int last = Integer.MIN_VALUE;
     public boolean isValidBST1(TreeNode root) {
         if(root == null){
             return true;
