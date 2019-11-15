@@ -40,4 +40,21 @@ public class 验证二叉搜索树 {
         }
         return helper(root.left, min, root) && helper(root.right, root, max);
     }
+
+    /**
+     *
+     */
+    private int lastNode = Integer.MIN_VALUE;
+    private boolean review(TreeNode root){
+        if(root == null){
+            return true;
+        }
+        if(review(root.getLeft())){
+            if(lastNode < root.val){
+                lastNode = root.val;
+                return review(root.right);
+            }
+        }
+        return false;
+    }
 }
