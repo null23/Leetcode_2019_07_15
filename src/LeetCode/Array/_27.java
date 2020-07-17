@@ -4,6 +4,11 @@ import java.util.Arrays;
 
 /**
  * 双指针
+ *  解题思路：
+ *   题目没有要求顺序，因此从数组最开始维护一个索引i，然后通过索引j遍历数组，只要发现j符合条件就交换两个索引位置的数据
+ *
+ *   时间复杂度：O(n)
+ *   空间复杂度：O(1)
  */
 public class _27 {
     public int removeElement(int[] nums, int val) {
